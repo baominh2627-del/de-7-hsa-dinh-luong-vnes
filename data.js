@@ -1,13 +1,13 @@
-export const examData = [
+﻿export const examData = [
   {
     id: "q1",
     type: "mcq",
     question:
-      "Có 100 học sinh tham dự kì thi Olympic Toán - tiếng Anh (thang điểm 20). Kết quả điểm của 100 học sinh trên được ghi lại ở bảng sau:<br><br>Điểm | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19<br>Tần số | 2 | 1 | 3 | 6 | 6 | 12 | 23 | 21 | 14 | 11 | 1<br><br>Tìm mốt của mẫu số liệu trên.",
+      "Có 100 học sinh tham dự kì thi Olympic Toán - tiếng Anh (thang điểm 20). Kết quả điểm của 100 học sinh trên được ghi lại ở bảng sau:<br><br>Tìm mốt của mẫu số liệu trên.",
     options: ["14.", "15.", "16.", "23."],
     correctAnswer: 1,
     explanation: "Đáp án đúng là: B (15).",
-    image: null,
+    image: "cau_1.png",
   },
   {
     id: "q2",
@@ -555,7 +555,7 @@ export const examData = [
     id: "q49",
     type: "fill",
     question:
-      "Một ứng dụng trên điện thoại thực hiện khảo sát ý kiến người dùng về tính năng mới cập nhật. Kết quả được ghi như bảng sau:<br><br>Thái độ | Hài lòng | Không hài lòng<br>Giới tính | |<br>Nam | 35 | 25<br>Nữ | 10 | 50<br><br>Cần chọn ngẫu nhiên một ý kiến người dùng để làm báo cáo. Xác suất để ý kiến đó đến từ người dùng nam, biết rằng đó là ý kiến hài lòng bằng bao nhiêu? (Kết quả viết dưới dạng phân số tối giản)",
+      "Một ứng dụng trên điện thoại thực hiện khảo sát ý kiến người dùng về tính năng mới cập nhật. Kết quả được ghi như bảng sau:<br><br>Cần chọn ngẫu nhiên một ý kiến người dùng để làm báo cáo. Xác suất để ý kiến đó đến từ người dùng nam, biết rằng đó là ý kiến hài lòng bằng bao nhiêu? (Kết quả viết dưới dạng phân số tối giản)",
     correctAnswer: "7/9",
     explanation: "Đáp án đúng là: 7/9",
     image: "cau_49.png",
@@ -570,3 +570,4 @@ export const examData = [
     image: null,
   },
 ];
+
